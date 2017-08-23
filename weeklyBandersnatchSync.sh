@@ -1,13 +1,13 @@
 
 #!/bin/bash
 
-#unmount and remount share drive
+#unmount and remount share drive to ensure a proper sync
 
 umount -l /mnt/patches
 
 mount -a
 
-#Define sync directory
+#Define sync directory, source directory, and amount of days to be synced. 
 SRC_DIR=/home/bandersnatch
 DEST_DIR=/mnt/patches/PyPi-Export-$(date +%Y-%m-%d_%H:%M)
 DAYS_SINCE=27
