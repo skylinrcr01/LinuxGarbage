@@ -1,5 +1,10 @@
 #!/bin/bash
 
+####################################################
+# This script will install all npm packages from a file, in this case nodejsdb018.txt
+# that has packages delimited by a line break. 
+####################################################
+
 #: > nodedbin.txt
 
 #while read -r LINE; do 
