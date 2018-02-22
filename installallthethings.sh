@@ -16,5 +16,5 @@
 echo "$date" >> /home/trohren/installallthethingslog.txt
 
 for line in $(cat /home/trohren/sinopia/nodejsdb2018.txt); do
-npm install "${line}" --save 2> /home/trohren/installallthethingslog.txt
+npm install "${line}" --save >> /home/trohren/installallthethingslog.txt
 done
